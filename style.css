@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    color: #E9B8C9;
+    padding: 0;
+    background: #dcdcdc;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige ;
+}
+
+/* Main big container */
+.main-container {
+   
+    width: 750px;
+    height: 450px;
+    padding-top:10px;
+    display: flexbox;
+    margin: 40px auto;
+    background:#31241F;
+    position: relative;
+    text-align: center;
+    border-radius: 50px;
+}
+
+/* Title */
+.title {
+    margin-top: 20px;
+    font-weight: normal;
+    color: #E9B8C9;
+}
+
+/* Amount section */
+.amount-section {
+    width: 600px;
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 15px;
+    background: #f2f2f2;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.amount-section label {
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.amount-section input {
+    width: 300px;
+    padding: px;
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Currency section */
+.currency-section {
+    width: 700px;
+    margin: 60px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.from-section,
+.to-section {
+    text-align: center;
+}
+
+/* Small dropdown boxes */
+.from-section select,
+.to-section select {
+    width: 90px;
+    height: 45px;
+   border-radius: 45px;
+    background: #f2f2f2;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+/* Currency text under box */
+.currency-text {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+button{
+    margin-top: 20px;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: none;
+    background-color: aqua;
+    font-family:cursive;
+}
