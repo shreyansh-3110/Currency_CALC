@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     
     
 
-    result.innerText=`Exchange amount is ${res.conversion_rates[toValue]*amountValue}  ${toValue}`
+    result.innerText=`Exchange  amount  is  ${res.conversion_rates[toValue]*amountValue}  ${toValue} `
 
     console.log("Entered amount:", amountValue);
     console.log("From currency:", fromValue);
